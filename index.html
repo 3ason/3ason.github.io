@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>My Portfolio | Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Main stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===============  NAVIGATION  =============== -->
+  <div class="navigation">
+    <input type="checkbox" id="navi-toggle" class="navigation__checkbox">
+
+    <label for="navi-toggle" class="navigation__button">
+      <span class="navigation__icon">&nbsp;</span>
+    </label>
+
+    <div class="navigation__background">&nbsp;</div>
+
+    <nav class="navigation__nav">
+      <ul class="navigation__list">
+        <li class="navigation__item"><a class="navigation__link" href="index.html"><span>01</span>Home</a></li>
+        <li class="navigation__item"><a class="navigation__link" href="quest.html"><span>02</span>Quest</a></li>
+        <li class="navigation__item"><a class="navigation__link" href="motivation.html"><span>03</span>Motivation</a></li>
+        <li class="navigation__item"><a class="navigation__link" href="library.html"><span>04</span>Library</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <!-- ===============  HERO HEADER  =============== -->
+  <header class="header" id="home">
+    <div class="header__logo-box">
+      <!-- optional logo -->
+      <!-- <img src="img/logo-white.png" alt="logo" class="header__logo"> -->
+    </div>
+
+    <div class="header__text-box">
+      <h1 class="heading-primary">
+        <span class="heading-primary--main">Welcome</span>
+        <span class="heading-primary--sub">to my portfolio</span>
+      </h1>
+
+      <a href="#section-projects" class="btn btn--white btn--animated">See my work</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- =============  PROJECT SHOWCASE  ============ -->
+    <section class="section-tours" id="section-projects">
+      <div class="u-center-text u-margin-bottom-big">
+        <h2 class="heading-secondary">Featured Projects</h2>
+      </div>
+
+      <!-- Row 1 -->
+      <div class="row">
+        <!-- Card 1 -->
+        <div class="col-1-of-3">
+          <div class="card">
+            <div class="card__side card__side--front">
+              <div class="card__picture card__picture--1">&nbsp;</div>
+              <h4 class="card__heading">
+                <span class="card__heading-span card__heading-span--1">Project Alpha</span>
+              </h4>
+              <div class="card__details">
+                <ul>
+                  <li>React / Node</li>
+                  <li>Full-stack</li>
+                  <li>AWS Deploy</li>
+                  <li>2025</li>
+                  <li>Live</li>
+                </ul>
+              </div>
+            </div>
+            <div class="card__side card__side--back card__side--back-1">
+              <div class="card__cta">
+                <div class="card__price-box">
+                  <p class="card__price-only">Role</p>
+                  <p class="card__price-value">Lead Dev</p>
+                </div>
+                <a href="#" class="btn btn--white">View Repo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-1-of-3">
+          <div class="card">
+            <div class="card__side card__side--front">
+              <div class="card__picture card__picture--2">&nbsp;</div>
+              <h4 class="card__heading">
+                <span class="card__heading-span card__heading-span--2">Project Beta</span>
+              </h4>
+              <div class="card__details">
+                <ul>
+                  <li>Python / Flask</li>
+                  <li>REST API</li>
+                  <li>PostgreSQL</li>
+                  <li>2024</li>
+                  <li>Stable</li>
+                </ul>
+              </div>
+            </div>
+            <div class="card__side card__side--back card__side--back-2">
+              <div class="card__cta">
+                <div class="card__price-box">
+                  <p class="card__price-only">Role</p>
+                  <p class="card__price-value">Designer</p>
+                </div>
+                <a href="#" class="btn btn--white">Case Study</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-1-of-3">
+          <div class="card">
+            <div class="card__side card__side--front">
+              <div class="card__picture card__picture--3">&nbsp;</div>
+              <h4 class="card__heading">
+                <span class="card__heading-span card__heading-span--3">Project Gamma</span>
+              </h4>
+              <div class="card__details">
+                <ul>
+                  <li>Go / gRPC</li>
+                  <li>Micro-services</li>
+                  <li>Kubernetes</li>
+                  <li>2023</li>
+                  <li>Beta</li>
+                </ul>
+              </div>
+            </div>
+            <div class="card__side card__side--back card__side--back-3">
+              <div class="card__cta">
+                <div class="card__price-box">
+                  <p class="card__price-only">Role</p>
+                  <p class="card__price-value">Engineer</p>
+                </div>
+                <a href="#" class="btn btn--white">Live Demo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /row 1 -->
+      <!-- Duplicate or remove rows as needed -->
+    </section>
+  </main>
+
+  <!-- ===============  FOOTER  =============== 
+   https://japan-forward.com/hidden-wonders-of-japan-choshi-railway-clickety-clacking-through-the-green/
+   [Hidden Wonders of Japan] Chōshi Railway: Clickety-clacking Through the Green
+   “The train does not run through a real tunnel, but it will take you through a ‘green’ one” “When the air-conditioner is turned on and the 
+   train speed accelerates, the voltage drops, and the lights go out” These are some colorful slogans that describe the Chōshi Electric Railroad, 
+   or Chōshi Dentestu Line, which runs 6.4km between Chōshi Station and Tokawa Station in Chōshi City, Chiba Prefecture. The line has been in the 
+   red for some time now. The railroad line’s operation began in 1923 and has since been running as a commuting line. It also provides transportation 
+   for tourists to reach Cape Inubō. However, due to the area’s depopulation, the number of passengers has been decreasing by the year. Approximately 1.3 million 
+   people used the line 50 years ago, but last year the number dropped to as low as 350,000 passengers. Recently, Chōshi Dentestu has been drawing outside attention 
+   with its unusual strategy to overcome the company’s financial difficulties by taking advantage of their adversity and making fun of themselves. The private 
+   railroad company’s core revenue doesn’t come from its railway operation, but instead from its food manufacturing sales. Playful puns are used in the names of 
+   their popular products, like “wet rice crackers” called nuresembei or the stick-shaped snack mazui bo, meaning “foul-tasting stick” which pokes fun at their financial
+    situation. Then there is the sabaibaru bento a "mackerel lunch box”, with a name that reflects something of a vow to sustain the company’s survival. The 
+    company has been sending out self-deprecating messages like, “The CEO had to run the train himself due to insufficient staff.” Another is, “We need to make 
+    money for train repairs, so please buy our nuresembei…” A spot on the Chōshi line favored by railroad enthusiasts is the organic “green tunnel” built of surrounding trees. 
+    According to Chōshi Dentetsu, if the tree branches grow too long, they will be tidied up as a safety measure. But the railway line was built through mountains 
+    that already existed and therefore they see the greenery as “nature’s tunnel”.
+
+   
+   -->
+  <footer class="footer">
+    <div class="u-center-text u-margin-bottom-small">
+      Built with ♥ and CSS clip-paths
+    </div>
+  </footer>
+
+</body>
+</html>
